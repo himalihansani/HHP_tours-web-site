@@ -1,0 +1,125 @@
+@font-face {
+	font-family: 'gothic';
+	src: url('gothic.ttf');
+	src: local('gothic'), url('gothic.html') format('woff'), url('gothic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'litho';
+	src: url('litho.otf');
+	src: local('litho'), url('litho.html') format('litho'), url('litho.otf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'nyala';
+	src: url('nyala.ttf');
+	src: local('nyala'), url('nyala.html') format('nyala'), url('nyala.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'impact';
+	src: url('impact.ttf');
+	src: local('impact'), url('impact.html') format('impact'), url('impact.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'corbel';
+	src: url('corbel.html');
+	src: local('corbel'), url('corbel-2.html') format('corbel'), url('corbel.html') format('truetype');
+}
+
+@font-face {
+	font-family: 'candara';
+	src: url('candara.ttf');
+	src: local('candara'), url('candara.html') format('candara'), url('candara.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Red';
+	src: url('Red.ttf');
+	src: local('Red'), url('Red.html') format('Red'), url('Red.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'cooper';
+	src: url('cooper.otf');
+	src: local('cooper'), url('cooper.otf') format('cooper'), url('cooper.otf') format('truetype');
+}
+
+@font-face {
+	font-family: 'aller';
+	src: url('aller.ttf');
+	src: local('aller'), url('aller.ttf') format('aller'), url('aller.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'jungle';
+	src: url('jungle.ttf');
+	src: local('jungle'), url('jungle.ttf') format('jungle'), url('jungle.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'sun';
+	src: url('sun.otf');
+	src: local('sun'), url('sun.otf') format('sun'), url('sun.otf') format('truetype');
+}
+
+@font-face {
+	font-family: 'cabana';
+	src: url('cabana.otf');
+	src: local('cabana'), url('cabana.otf') format('cabana'), url('cabana.otf') format('truetype');
+}
+
+@font-face {
+	font-family: 'papy';
+	src: url('papy.html');
+	src: local('papy'), url('papy.html') format('papy'), url('papy.html') format('truetype');
+}
+
+@font-face {
+	font-family: 'ptsans';
+	src: url('ptsans.ttf');
+	src: local('ptsans'), url('ptsans.ttf') format('ptsans'), url('ptsans.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'opensans';
+	src: url('opensans.ttf');
+	src: local('opensans'), url('opensans.ttf') format('opensans'), url('opensans.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'sego';
+	src: url('sego.ttf');
+	src: local('sego'), url('sego.ttf') format('sego'), url('sego.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'raleway';
+	src: url('raleway.ttf');
+	src: local('raleway'), url('raleway.ttf') format('raleway'), url('raleway.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'gotham';
+	src: url('gotham.otf');
+	src: local('gotham'), url('gotham.html') format('gotham'), url('gotham.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'lato';
+	src: url('lato.ttf');
+	src: local('lato'), url('lato.ttf') format('lato'), url('lato.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'handle';
+	src: url('handle.ttf');
+	src: local('handle'), url('handle.ttf') format('handle'), url('handle.ttf') format('truetype');
+}
+
+

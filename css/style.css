@@ -1,0 +1,271 @@
+body {
+-webkit-font-smoothing: antialiased;
+font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #232525;
+padding-top:0px;
+margin:0;
+background:url(../images/body.jpg);
+}
+
+#width100{float:left; width:100%;}
+
+#topbg{width:100%;float:right; background-color:#AA00FF; border-bottom:1px solid #0c5666;}
+#top{width:76%;float:right; background-color:#AA00FF; padding-top:10px; }
+
+.logo{float:left; width:11%; padding:0.5% 0% 0.5% 0.5%; background-color:#AA00FF;}.logo img{width:100%; border-radius:10px;}
+.wonder{float:left; width:10%; margin-left:2%;}.wonder img{width:100%; margin-top:30px;}
+
+.russian{float:right; width:auto; background: rgba(255, 255, 255, 0.7); padding:5px; margin-right:10px; border-radius:3px; transition:background 0.3s;}
+.russian:hover{background: rgba(255, 255, 255, 1.0); }
+.russian .txt{float:right; margin-top:0px; margin-left:10px; color:#AA00FF;}
+.russian img{margin-top:px; border:1px solid #AA00FF;}
+
+.no{
+float:right;
+font-family:tahoma;
+font-size:14px;
+color:#ccc;
+margin-top:5px;
+margin-right:10px;
+letter-spacing:1px;
+}
+
+.mail{
+margin-top:5px;
+float:right;
+font-family:tahoma;
+font-size:14px;
+color:#ccc;
+letter-spacing:1px;
+margin-right:15px;
+}
+
+.line{float:left; width:100%; border-bottom: solid 1px #116429; padding-top:10px; background-color:#000000;}
+
+#button{float:right;  margin-top:20px; background-color:#0c5666;transition:height 1s; border-radius:5px 0px 0px 5px; }
+#button .menu{float:left; width:0; height:0; color:#fff; text-align:right; font-family:opensans; overflow:hidden;}
+
+#button .btn{ font-weight:bold;
+float:left;
+padding:15px 17px 15px 17px;
+font-family:arial;
+font-size:12px;
+text-align:center;
+color:#fff;
+border-radius:1px;
+text-transform:uppercase;
+}
+#button .btn:hover{color:#6DEE48;}
+#button .act{color:#FFCC00;}
+
+#russian{float:right;  margin-top:20px; background-color:#0c5666;transition:height 1s; border-radius:5px 0px 0px 5px; }
+#russian .menu{float:left; width:0; height:0; color:#fff; text-align:right; font-family:opensans; overflow:hidden;}
+
+#russian .btn{ 
+font-weight:bold;
+float:left;
+padding:15px 13px 15px 13px;
+font-family:arial;
+font-size:12px;
+text-align:center;
+color:#fff;
+border-radius:1px;
+text-transform:uppercase;
+}
+#russian .btn:hover{color:#6DEE48;}
+#russian .act{color:#FFCC00;}
+
+#body{
+float:left;
+width:90%;
+padding-left:5%;
+}
+
+#welcome{float:left; width:60%; padding-left:20%; padding-right:20%; margin-top:30px;}
+#welcome a{text-decoration:none;}
+.welcome-h1{width:100%; letter-spacing:normal; float:left; font-family:handle; color:#333; font-size:36px; text-align:center; margin-top:10px; padding-bottom:5px;}
+.welcome-txt{width:100%; float:left; margin-top:30px; font-family:opensans; font-size:14px; text-align:center; color:#555;   }  
+.welcome-btn-bg{margin:auto; width:305px;}
+.welcome-btn{text-align:center; float:left; font-family:opensans; font-size:22px; color:#fff; margin:auto; margin-top:20px; width:150px; padding:10px 0px 10px 0px; background-color:#590191; transition:background-color 0.3s, color 0.3s; font-size:14px; text-transform:uppercase}
+.welcome-btn:hover{background-color:#666; color:#fff;}
+.welcome-btn2{text-align:center; float:left; font-family:opensans; font-size:22px; color:#fff; margin:auto; margin-top:20px; width:150px; padding:10px 0px 10px 0px; background-color:#a70f0e; transition:background-color 0.3s, color 0.3s; font-size:14px; margin-left:5px; text-transform:uppercase}
+.welcome-btn2:hover{background-color:#666; color:#fff;}
+
+#custom{float:left; width:100%; margin-top:30px;}
+.custom{float:left; width:49%;}
+.custom img {width:100%;}
+
+.destination{float:left; width:24.5%; margin-left:1%;}
+.destination img {width:100%;}
+.destination-h1{
+	text-transform: uppercase;
+	width: 98%;
+	float: left;
+	font-family: opensans;
+	color: #fff;
+	font-size: 18px;
+	padding: 5px 0px 5px 2%;
+	background-color: #CC00FF;
+}
+.destination-btn{text-transform:uppercase; float:right; font-family:opensans; color:#000; font-size:14px;  padding:5px 10px 5px 10px;  background:#FF9900; transition:all 0.3s;}
+.destination-btn:hover{color:#fff;}
+
+#social{float:left; width:100%;}
+.social{float:left; width:32.64%; margin-left:1%; margin-top:15px;}
+.social .txt1{float:left; width:95%; background:#360f4e; font-size:16px; color:#CCCCCC; padding:5px 0 5px 0; padding-left:5%; text-transform:uppercase;}
+.social .txt2{float:left; width:95%; background:#240737; font-size:12px; color:#CCCCCC; padding:5px 0 5px 0; padding-left:5%; text-transform:uppercase;}
+#social .social:nth-child(2){margin-left:0;}
+
+#reviews{float:left; width:99.9%; border:1px solid #ccc; margin-top:30px; border-radius:1px;  padding-top:30px; padding-bottom:30px;}
+#reviews textarea{width:100%; border:0; float:left; background-color:none; font-size:14px; color:#333; text-align:center; background-image:url(../images/body.jpg); font-family:handle;}
+.reviews{float:left; width:15.5%; border-right:1px solid #ccc; padding-left:2%; padding-right:2%;}
+.reviews-txt{font-family:handle; font-size:14px; color:#333; text-align:center; float:left; width:100%;}
+.reviews img{width:80%; margin-left:10%; border-radius:120px; box-shadow:0px 0px 2px #000; padding:2px; margin-top:20px;}
+#reviews .reviews:nth-child(2){border-left:0px solid #ccc;}
+#reviews .reviews:nth-child(6){margin-right:0; border:0;}
+.reviews-kom-left{float:left; text-align:left; font-size:55px; line-height:15px; font-family:gotham;}
+.reviews-kom-right{float:right; width:100%; text-align:right; font-size:55px; line-height:15px;}
+.reviews-h1{float:left; text-align:center; width:100%; font-family:ptsans; text-transform:uppercase; color:#000; font-size:16px; margin-top:20px;}
+.reviews-header{width:100%;  float:left; font-family:handle; color:#333; font-size:26px; text-align:center; padding-bottom:40px;}
+.reviews-date{float:left; text-align:center; width:100%; font-family:ptsans; color:#666; font-size:12px; margin-top:10px;}
+.reviews-country{float:left; text-align:center; width:100%; font-family:ptsans; color:#666; font-size:14px;}
+
+#about{float:left; width:95%;  padding:2.5%; background-color:#fff;}
+#about a{text-decoration:none;}
+#about h1{width:100%; letter-spacing:normal; float:left; font-family:handle; color:#333; font-size:24px;  margin-top:10px; padding-bottom:5px;}
+.about-h1{width:100%; letter-spacing:normal; text-transform:uppercase; float:left; font-family:opensans; color:#000; font-size:18px;  margin-top:10px; }
+.about-h1 .bgcolor{float:left; background-color:#c83726; padding:5px 20px 0px 20px; border-radius:5px; margin-left:0px;}
+.about-txt{width:100%; border-radius:8px; float:left; margin-top:0px; text-align:justify; font-family:opensans; font-size:14px;  color:#333;   line-height:30px;}  
+
+#nav{float:left; width:100%; font-family:ptsans; font-size:14px; margin-top:10px; margin-bottom:20px;}
+.nav_txt{float:left; margin-right:10px;}
+.nav_txt2{float:left;}
+#nav u{margin-right:10px; margin-left:10px;}
+#nav u:nth-child(1){margin-left:0;}
+
+#team{float:left; width:99.9%; margin-top:0px; padding-top:30px; padding-bottom:30px;}
+.team{float:left; width:15.5%; border-right:1px solid #ccc; padding-left:2%; padding-right:2%;}
+.team img{width:100%; margin-left:0%; box-shadow:0px 0px 2px #000; margin-top:20px;}
+#team .team:nth-child(1){border-left:0px solid #ccc;}
+#team .team:nth-child(5){margin-right:0; border:0;}
+.team-h1{float:left; text-align:center; width:100%; font-family:ptsans; text-transform:uppercase; color:#000; font-size:16px; margin-top:20px;}
+.team-country{float:left; text-align:center; width:100%; font-family:ptsans; color:#666; font-size:14px;}
+
+#footer{float:left; width:100%; margin-top:20px; background:#fff;}
+.footer{float:left; width:100%; text-align:center; padding:20px 0px 20px 0px;}
+.footer a{text-decoration:none;}
+.footer a .txt{color:#666; text-transform:uppercase; font-family:opensans; font-size:12px; border-left:1px solid #999; padding:0px 10px 0px 10px;}
+.footer a .txt:hover{color:#990000;}
+.footer a:nth-child(1) .txt{border-left:0; margin-left:0;}
+#footer .bottom{float:left; width:100%; border-top:1px dotted #999; text-align:center; padding:10px 0px 10px 0px; color:#666; text-transform:uppercase;}
+.footer-txt{float:left;width:100%;text-align:center;font-family:ptsans;color:#999999;font-size:14px; text-transform:none;}
+.footer-txt a{text-decoration:none;}
+.site-by{color:#934511; margin-left:10px;}.site-by:hover{color:#000;}
+
+@media only screen and (min-width: 1px) and (max-width: 768px) {
+body {
+-webkit-font-smoothing: antialiased;
+font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #232525;
+padding-top:0px;
+margin:0;
+background:none;
+background-color:#FFFFFF;
+}
+#topbg{width:100%;float:right;border-bottom:0px solid #0c5666;}
+#top{width:100%;float:right;  padding-top:10px; }
+
+.logo{float:left; width:100%; padding:0%; }.logo img{width:70%; margin-left:15%; border-radius:0px;}
+
+.wonder{float:left; width:40%; margin-left:30%;}.wonder img{width:100%; margin-top:10px;}
+
+.google{
+width:100%;
+color:#000;
+text-align:center;
+margin-top:3px;
+margin-right:0px;
+}
+
+.no{
+margin-top:8px;
+padding-left:0px;
+margin-right:0;
+width:100%;
+color:#fff;
+text-align:center;
+padding-top:0px;
+border-bottom:0px solid #333;
+}
+
+.mail{
+margin-top:8px;
+padding-left:0px;
+width:100%;
+text-align:center;
+margin-left:0;
+margin-right:0;
+color:#fff;
+padding-top:0px;
+margin-bottom:10px;
+border-bottom:0px solid #333;
+}
+.line{float:left; width:100%; border-bottom: solid 0px #116429; padding-top:0px; background-color:#000000;}
+
+#button{float:left; width:100%; height:46px; transition:height 1s; overflow:hidden; border-radius:0;}
+#button:hover{height:310px;}
+#button .menu{float:left; width:98%; padding-right:2%; height:36px; padding-top:9px; background-color:#2F81BD; border-bottom:1px solid #000; background-image:url(../images/menu.png); background-position:left; background-repeat:no-repeat;}
+
+#button{ width:100%; margin-top:0; padding:0;}
+#button .btn{width:100%; margin-left:0; padding:7px 0px 7px 0px; font-size:12px; border-bottom:1px solid #333;}
+
+#russian{float:left; width:100%; height:46px; transition:height 1s; overflow:hidden; border-radius:0;}
+#russian:hover{height:310px;}
+#russian .menu{float:left; width:98%; padding-right:2%; height:36px; padding-top:9px; background-color:#2F81BD; border-bottom:1px solid #000; background-image:url(../images/menu.png); background-position:left; background-repeat:no-repeat;}
+
+#russian{ width:100%; margin-top:0; padding:0;}
+#russian .btn{width:100%; margin-left:0; padding:7px 0px 7px 0px; font-size:12px; border-bottom:1px solid #333;}
+
+#welcome{float:left; width:100%; padding-left:0%; padding-right:0%; margin-top:30px;}
+.welcome-btn-bg{margin:auto; width:100%;}
+.welcome-btn{ width:40%; padding:10px 0px 10px 0px; margin:20px 30% 0px 30%;}
+.welcome-btn:hover{background-color:#1C641E; color:#fff;}
+.welcome-btn2{ margin:auto; margin-top:0px; width:0px; height:0; overflow:hidden; padding:0px 0px 0px 0px;}
+.welcome-btn2:hover{background-color:#1C641E; color:#fff;}
+
+#custom{float:left; width:100%; margin-top:30px;}
+.custom{float:left; width:100%;}
+.custom img {width:100%;}
+
+.destination{float:left; width:100%; margin-left:0%; margin-top:30px;}
+.destination img {width:100%;}
+.destination-h1{width:100%; font-size:16px;  padding:5px 0px 5px 0%; text-align:center; }
+.destination-btn{font-size:14px;  padding:5px 0px 5px 0px; width:40%; margin-left:30%; float:left; text-align:center; margin-bottom:15px; margin-top:15px;}
+
+#reviews{margin-top:30px; padding-top:30px; padding-bottom:30px;}
+.reviews{width:90%; border-right:0px solid #ccc; border-bottom:1px solid #ccc; padding-left:5%; padding-right:5%; margin-top:30px; padding-bottom:30px;}
+.reviews-txt{font-family:handle; font-size:14px; color:#333; text-align:center; float:left; width:100%;}
+#reviews .reviews:nth-child(1){border-left:0px solid #ccc; margin-top:0;}
+#reviews .reviews:nth-child(5){margin-right:0; border:0; padding-bottom:0px;}
+.reviews-kom-left{float:left; text-align:left; font-size:55px; line-height:15px; font-family:gotham;}
+.reviews-kom-right{float:right; width:100%; text-align:right; font-size:55px; line-height:15px;}
+.reviews-h1{float:left; text-align:center; width:100%; font-family:ptsans; text-transform:uppercase; color:#000; font-size:16px; margin-top:20px;}
+.reviews-date{float:left; text-align:center; width:100%; font-family:ptsans; color:#666; font-size:12px; margin-top:10px;}
+.reviews-country{float:left; text-align:center; width:100%; font-family:ptsans; color:#666; font-size:14px;}
+
+#team{float:left; width:100%; margin-top:0px; padding-top:10px; padding-bottom:30px;}
+.team{float:left; width:100%; border-right:0px solid #ccc; border-top:1px dotted #ccc; padding-left:0%; padding-right:0%; margin-bottom:20px; padding-top:10px;}
+.team img{width:60%; margin-left:20%; box-shadow:0px 0px 2px #000; margin-top:20px;}
+#team .team:nth-child(1){border-left:0px solid #ccc; border-top:0px solid #ccc;}
+#team .team:nth-child(5){margin-right:0; }
+.team-country{float:left; text-align:center; width:100%; font-family:ptsans; color:#666; font-size:14px;}
+
+.footer{float:left; width:100%; text-align:center; padding:20px 0px 20px 0px;}
+.footer a{text-decoration:none;}
+.footer a .txt{float:left; font-family:opensans; font-size:14px; border-left:0px solid #999; padding:0px 0px 5px 0px;  width:100%; border-bottom:1px dotted #999;}
+.footer a:nth-child(1) .txt{border-left:0; margin-left:0;}
+#footer .bottom{float:left; width:100%; border-top:0px dotted #999; padding:0px 0px 10px 0px; color:#666; text-transform:uppercase;}
+.footer-txt{float:left;width:100%;text-align:center;font-family:ptsans;color:#999999;font-size:14px; text-transform:none;}
+.footer-txt a{text-decoration:none;}
+.site-by{color:#934511; margin-left:10px;}.site-by:hover{color:#000;}
+}
